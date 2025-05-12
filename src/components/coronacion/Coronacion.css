@@ -1,0 +1,21 @@
+.contenedorPiezas{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 560px;
+  padding: 10px;
+  align-items: baseline;
+}
+
+.contenedorPiezaCoronacion {
+  display: flex;
+  height: auto;
+  width: 140px;
+  padding: 5px;
+  align-items: flex-end;
+}
+.piezaCoronacion {
+  width: 100%;
+  height: auto;
+}

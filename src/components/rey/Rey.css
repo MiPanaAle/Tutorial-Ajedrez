@@ -1,0 +1,44 @@
+.rey {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorRey {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.textExplicacion {
+  color: #fff;
+  font-size: 25px;
+}
+
+.piezaRey {
+  padding: 10px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contenedorBTN{
+  display: flex;
+}

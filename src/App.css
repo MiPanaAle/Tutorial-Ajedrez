@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Añadido para mejor manejo de dimensiones */
+}
+
+/* Contenedor principal (fondo) */
+.tablero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* Capa inferior */
+}
+
+/* Contenedor encima del tablero */
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Capa superior */
+}
