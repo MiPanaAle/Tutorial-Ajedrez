@@ -42,3 +42,11 @@
 .contenedorBTN{
   display: flex;
 }
+
+@media (max-width: 1024) {
+  
+}
+
+@media (max-width: 932) {
+
+}

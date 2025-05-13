@@ -8,7 +8,7 @@ import "./App.css";
 import Tablerofondo from "./components/componentesEnComponentes/tablero/Tablero";
 import Inicio from "./components/inicio/Inicio"
 import Seleccionar from "./components/select/Seleccionar";
-import Piezas from "./components/piezas/Piezas";
+import Piezas from "./components/piezas/Piezas"; 
 import Rey from "./components/rey/Rey";
 import Dama from "./components/dama/Dama"
 import Torre from "./components/torre/Torre";
@@ -32,9 +32,9 @@ function App() {
       <div className="app">
         <Routes>
           <Route path="/" element={<Inicio navigate={navigate} />} />
-          <Route path="/seleccion" element={<Seleccionar atras={atras} navigate={navigate} />} />
+          <Route path="/seleccion" element={<Seleccionar navigate={navigate} />} />
           <Route path="/pieza" element={<Piezas atras={atras} navigate={navigate} />} />
-          <Route path="/aperturas" element={<Aperturas atras={atras} navigate={navigate} />} />
+          <Route path="/Aperturas-Finales" element={<Aperturas atras={atras} navigate={navigate} />} />
           <Route path="/tablero" element={<Tablero atras={atras} navigate={navigate} />} />
           <Route path="/pieza/rey" element={<Rey atras={atras} navigate={navigate} />} />
           <Route path="/pieza/dama" element={<Dama atras={atras} />} />
@@ -45,7 +45,7 @@ function App() {
           <Route path="/pieza/rey/enroque" element={<Enroque atras={atras} />} />
           <Route path="/pieza/peón/PeónAlPaso" element={<Paso atras={atras} />} />
           <Route path="/pieza/peón/coronación" element={<Coronacion atras={atras} />} />
-          <Route path="/apertura" element={<Aperturas atras={atras} navigate={navigate} />} />
+          <Route path="/aperturaa" element={<Aperturas atras={atras} navigate={navigate} />} />
           <Route path="/finales" element={<Aperturas atras={atras} navigate={navigate} />} />
         </Routes>
       </div>

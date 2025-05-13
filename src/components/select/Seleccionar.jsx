@@ -7,7 +7,7 @@ import "./Seleccionar.css";
 function Seleccionar({ navigate }) {
   const handlePieza = () => navigate("/pieza");
   const handleTablero = () => navigate("/tablero");
-  const handleAperturas = () => navigate("/aperturas");
+  const handleAperturas = () => navigate("/Aperturas-Finales");
 
   return (
     <div className="seleccionar">
@@ -16,22 +16,22 @@ function Seleccionar({ navigate }) {
         <div className="arriba">
           <div className="imagen" onClick={handlePieza}>
             <h2 className="textImg">PIEZAS</h2>
-            <div className="img">
-              <img src={piezas} alt="aprender piezas" className="img" />
+            <div className="contenedorimgSelect">
+              <img src={piezas} alt="aprender piezas" className="imgSelect" />
             </div>
           </div>
           <div className="imagen" onClick={handleTablero}>
             <h2 className="textImg">TABLERO</h2>
-            <div className="img">
-              <img src={tablero} alt="aprender piezas" className="img" />
+            <div className="contenedorimgSelect">
+              <img src={tablero} alt="aprender piezas" className="imgSelect" />
             </div>
           </div>
         </div>
         <div className="abajo">
           <div className="imagen" onClick={handleAperturas}>
             <h2 className="textImg">APERTURAS Y FINALES</h2>
-            <div className="img">
-              <img src={reglas} alt="aprender piezas" className="img" />
+            <div className="contenedorimgSelect">
+              <img src={reglas} alt="aprender piezas" className="imgSelect" />
             </div>
           </div>
         </div>
