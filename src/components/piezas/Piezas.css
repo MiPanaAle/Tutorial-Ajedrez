@@ -1,4 +1,4 @@
-.piezas{
+.piezas {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.div{
+.div {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -15,7 +15,7 @@
   flex-wrap: wrap;
 }
 
-.contenedorpieza{
+.contenedorpieza {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,8 @@
   align-items: center;
 }
 
-.pieza{
-  width: 110px;
+.pieza {
+  width: 15vh;
   cursor: pointer;
   padding: 5px;
 }
@@ -35,9 +35,7 @@
 }
 
 @media (max-width: 1024) {
-  
 }
 
 @media (max-width: 932) {
-
 }

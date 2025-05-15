@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .contenedorRey {
@@ -21,7 +20,8 @@
 }
 
 .piezaRey {
-  padding: 0px;
+  padding: 10px;
+  height: 40vh;
 }
 
 .texto {
@@ -41,9 +41,7 @@
 }
 
 @media (max-width: 1024) {
-  
 }
 
 @media (max-width: 932) {
-
 }

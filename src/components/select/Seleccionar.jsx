@@ -1,7 +1,7 @@
 import React from "react";
 import piezas from "../../img/piezas.png";
 import tablero from "../../img/tablero.png";
-import reglas from "../../img/reglas.png";
+import reglas from "../../img/aperturasyfinales.png";
 import "./Seleccionar.css";
 
 function Seleccionar({ navigate }) {

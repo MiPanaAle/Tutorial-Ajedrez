@@ -38,7 +38,7 @@
 .imgSelect {
   padding: 10px;
   width: auto;
-  height: 375px;
+  height: 35vh;
 }
 
 .piezas {
@@ -61,9 +61,7 @@
 }
 
 @media (max-width: 1024) {
-  
 }
 
 @media (max-width: 932) {
-
 }
